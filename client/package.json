@@ -1,0 +1,29 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "axios": "^1.17.0",
+    "lucide-react": "^1.18.0",
+    "mediasoup-client": "^3.20.0",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.17.0",
+    "recharts": "^3.8.1",
+    "socket.io-client": "^4.8.3"
+  }
+}
